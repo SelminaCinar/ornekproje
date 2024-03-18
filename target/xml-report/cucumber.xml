@@ -1,93 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.982" tests="5" skipped="0" failures="5" errors="0">
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.1" time="0.118">
-<failure/>
+<testsuite name="Cucumber" time="1.125" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="ilk feature file" name="TC01_amazon_lego_arama" time="0.414">
 <system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................undefined
-When kullanici new butonuna tiklar..........................................skipped
-And kullanici first name "john" girer.......................................skipped
-And kullanici last name "walker" girer......................................skipped
-And kullanici positions "SDET" girer........................................skipped
-And kullanici office "ISTANBUL" girer.......................................skipped
-And kullanici extension "345" girer.........................................skipped
-And kullanici start_date "2023-03-01" girer.................................skipped
-And kullanici salary "100000" girer.........................................skipped
-And kullanici create buttonuna basar........................................skipped
-When kullanici firstname ile "john" arar....................................skipped
-Then firstname "john" in olustugunu test et.................................skipped
-Then close the application..................................................skipped
+Given kullanici amazon gider................................................passed
+When kullanici lego için arama yapar........................................passed
+Then sonuclarda lego oldugunu dogrular......................................passed
+And close the application...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.2" time="0.024">
-<failure/>
+<testcase classname="ilk feature file" name="TC02_amazon_mouse_arama" time="0.028">
 <system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................undefined
-When kullanici new butonuna tiklar..........................................skipped
-And kullanici first name "zeynep" girer.....................................skipped
-And kullanici last name "black" girer.......................................skipped
-And kullanici positions "developer" girer...................................skipped
-And kullanici office "ankara" girer.........................................skipped
-And kullanici extension "3412" girer........................................skipped
-And kullanici start_date "2023-03-04" girer.................................skipped
-And kullanici salary "800000" girer.........................................skipped
-And kullanici create buttonuna basar........................................skipped
-When kullanici firstname ile "zeynep" arar..................................skipped
-Then firstname "zeynep" in olustugunu test et...............................skipped
-Then close the application..................................................skipped
+Given kullanici amazon gider................................................passed
+When kullanici mouse için arama yapar.......................................passed
+Then sonuclarda mouse oldugunu dogrular.....................................passed
+Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.3" time="0.022">
-<failure/>
+<testcase classname="ilk feature file" name="TC03_amazon_giris_yap" time="0.03">
 <system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................undefined
-When kullanici new butonuna tiklar..........................................skipped
-And kullanici first name "ali" girer........................................skipped
-And kullanici last name "tez" girer.........................................skipped
-And kullanici positions "BA" girer..........................................skipped
-And kullanici office "Tokat" girer..........................................skipped
-And kullanici extension "678" girer.........................................skipped
-And kullanici start_date "2023-03-08" girer.................................skipped
-And kullanici salary "870000" girer.........................................skipped
-And kullanici create buttonuna basar........................................skipped
-When kullanici firstname ile "ali" arar.....................................skipped
-Then firstname "ali" in olustugunu test et..................................skipped
-Then close the application..................................................skipped
-]]></system-out>
-</testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.4" time="0.018">
-<failure/>
-<system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................undefined
-When kullanici new butonuna tiklar..........................................skipped
-And kullanici first name "feyza" girer......................................skipped
-And kullanici last name "sar" girer.........................................skipped
-And kullanici positions "PO" girer..........................................skipped
-And kullanici office "Izmir" girer..........................................skipped
-And kullanici extension "7456" girer........................................skipped
-And kullanici start_date "2023-03-03" girer.................................skipped
-And kullanici salary "860000" girer.........................................skipped
-And kullanici create buttonuna basar........................................skipped
-When kullanici firstname ile "feyza" arar...................................skipped
-Then firstname "feyza" in olustugunu test et................................skipped
-Then close the application..................................................skipped
-]]></system-out>
-</testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.5" time="0.025">
-<failure/>
-<system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................undefined
-When kullanici new butonuna tiklar..........................................skipped
-And kullanici first name "Mukesh" girer.....................................skipped
-And kullanici last name "Srivasan" girer....................................skipped
-And kullanici positions "Scrum Master" girer................................skipped
-And kullanici office "Haydarabat" girer.....................................skipped
-And kullanici extension "980" girer.........................................skipped
-And kullanici start_date "2023-03-09" girer.................................skipped
-And kullanici salary "50000" girer..........................................skipped
-And kullanici create buttonuna basar........................................skipped
-When kullanici firstname ile "Mukesh" arar..................................skipped
-Then firstname "Mukesh" in olustugunu test et...............................skipped
-Then close the application..................................................skipped
+Given kullanici amazon gider................................................passed
+When kullanici giris yap butonuna basar.....................................passed
+Then kullanici telefon numarasini girer.....................................passed
+Then kullanici devam et butonuna basar......................................passed
+Then kullanici password girer...............................................passed
+Then kullanici sign in butonuna basar.......................................passed
+Then giris yaptigini dogrular...............................................passed
+And close the application...................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
